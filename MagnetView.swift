@@ -8,10 +8,10 @@
 
 import SpriteKit
 
-public class MagneticView: SKView {
+public class MagnetView: SKView {
     
-    public lazy var magnetic: Magnetic = { [unowned self] in
-        let scene = Magnetic(size: self.bounds.size)
+    public lazy var magnet: Magnet = { [unowned self] in
+        let scene = Magnet(size: self.bounds.size)
         self.presentScene(scene)
         return scene
         }()
@@ -29,7 +29,7 @@ public class MagneticView: SKView {
     }
     
     func commonInit() {
-        _ = magnetic
+        _ = magnet
     }
     
 }

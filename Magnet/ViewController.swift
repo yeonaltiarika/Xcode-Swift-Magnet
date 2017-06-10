@@ -7,7 +7,7 @@
 //
 
 import SpriteKit
-import Magnetic
+import Magnet
 
 class ViewController: UIViewController {
     
