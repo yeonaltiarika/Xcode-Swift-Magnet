@@ -35,6 +35,27 @@
 		D9AE8CCA1EEBC0F00095B124 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		D9AE8CCC1EEBC10B0095B124 /* Magnet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Magnet.h; sourceTree = "<group>"; };
 		D9AE8CCD1EEBC17B0095B124 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9AE8CD01EEBC2050095B124 /* SFDisplay-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFDisplay-Black.otf"; sourceTree = "<group>"; };
+		D9AE8CD11EEBC2050095B124 /* SFDisplay-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFDisplay-Bold.otf"; sourceTree = "<group>"; };
+		D9AE8CD21EEBC2050095B124 /* SFDisplay-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFDisplay-Heavy.otf"; sourceTree = "<group>"; };
+		D9AE8CD31EEBC2050095B124 /* SFDisplay-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFDisplay-Light.otf"; sourceTree = "<group>"; };
+		D9AE8CD41EEBC2050095B124 /* SFDisplay-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFDisplay-Medium.otf"; sourceTree = "<group>"; };
+		D9AE8CD51EEBC2050095B124 /* SFDisplay-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFDisplay-Regular.otf"; sourceTree = "<group>"; };
+		D9AE8CD61EEBC2050095B124 /* SFDisplay-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFDisplay-Semibold.otf"; sourceTree = "<group>"; };
+		D9AE8CD71EEBC2050095B124 /* SFDisplay-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFDisplay-Thin.otf"; sourceTree = "<group>"; };
+		D9AE8CD81EEBC2050095B124 /* SFDisplay-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFDisplay-Ultralight.otf"; sourceTree = "<group>"; };
+		D9AE8CD91EEBC2050095B124 /* SFText-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFText-Bold.otf"; sourceTree = "<group>"; };
+		D9AE8CDA1EEBC2050095B124 /* SFText-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFText-BoldItalic.otf"; sourceTree = "<group>"; };
+		D9AE8CDB1EEBC2050095B124 /* SFText-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFText-Heavy.otf"; sourceTree = "<group>"; };
+		D9AE8CDC1EEBC2050095B124 /* SFText-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFText-HeavyItalic.otf"; sourceTree = "<group>"; };
+		D9AE8CDD1EEBC2050095B124 /* SFText-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFText-Light.otf"; sourceTree = "<group>"; };
+		D9AE8CDE1EEBC2050095B124 /* SFText-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFText-LightItalic.otf"; sourceTree = "<group>"; };
+		D9AE8CDF1EEBC2050095B124 /* SFText-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFText-Medium.otf"; sourceTree = "<group>"; };
+		D9AE8CE01EEBC2050095B124 /* SFText-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFText-MediumItalic.otf"; sourceTree = "<group>"; };
+		D9AE8CE11EEBC2050095B124 /* SFText-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFText-Regular.otf"; sourceTree = "<group>"; };
+		D9AE8CE21EEBC2050095B124 /* SFText-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFText-RegularItalic.otf"; sourceTree = "<group>"; };
+		D9AE8CE31EEBC2050095B124 /* SFText-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFText-Semibold.otf"; sourceTree = "<group>"; };
+		D9AE8CE41EEBC2050095B124 /* SFText-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFText-SemiboldItalic.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +72,7 @@
 		D9AE8CA31EEBBBCA0095B124 = {
 			isa = PBXGroup;
 			children = (
+				D9AE8CCF1EEBC1E90095B124 /* Fonts */,
 				D9AE8CC31EEBC0990095B124 /* MAGNETIC */,
 				D9AE8CAE1EEBBBCA0095B124 /* Magnet */,
 				D9AE8CAD1EEBBBCA0095B124 /* Products */,
@@ -90,6 +112,34 @@
 				D9AE8CCC1EEBC10B0095B124 /* Magnet.h */,
 			);
 			name = MAGNETIC;
+			sourceTree = "<group>";
+		};
+		D9AE8CCF1EEBC1E90095B124 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D9AE8CD01EEBC2050095B124 /* SFDisplay-Black.otf */,
+				D9AE8CD11EEBC2050095B124 /* SFDisplay-Bold.otf */,
+				D9AE8CD21EEBC2050095B124 /* SFDisplay-Heavy.otf */,
+				D9AE8CD31EEBC2050095B124 /* SFDisplay-Light.otf */,
+				D9AE8CD41EEBC2050095B124 /* SFDisplay-Medium.otf */,
+				D9AE8CD51EEBC2050095B124 /* SFDisplay-Regular.otf */,
+				D9AE8CD61EEBC2050095B124 /* SFDisplay-Semibold.otf */,
+				D9AE8CD71EEBC2050095B124 /* SFDisplay-Thin.otf */,
+				D9AE8CD81EEBC2050095B124 /* SFDisplay-Ultralight.otf */,
+				D9AE8CD91EEBC2050095B124 /* SFText-Bold.otf */,
+				D9AE8CDA1EEBC2050095B124 /* SFText-BoldItalic.otf */,
+				D9AE8CDB1EEBC2050095B124 /* SFText-Heavy.otf */,
+				D9AE8CDC1EEBC2050095B124 /* SFText-HeavyItalic.otf */,
+				D9AE8CDD1EEBC2050095B124 /* SFText-Light.otf */,
+				D9AE8CDE1EEBC2050095B124 /* SFText-LightItalic.otf */,
+				D9AE8CDF1EEBC2050095B124 /* SFText-Medium.otf */,
+				D9AE8CE01EEBC2050095B124 /* SFText-MediumItalic.otf */,
+				D9AE8CE11EEBC2050095B124 /* SFText-Regular.otf */,
+				D9AE8CE21EEBC2050095B124 /* SFText-RegularItalic.otf */,
+				D9AE8CE31EEBC2050095B124 /* SFText-Semibold.otf */,
+				D9AE8CE41EEBC2050095B124 /* SFText-SemiboldItalic.otf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
