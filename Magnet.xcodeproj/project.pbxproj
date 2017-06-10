@@ -12,6 +12,12 @@
 		D9AE8CB51EEBBBCB0095B124 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9AE8CB31EEBBBCB0095B124 /* Main.storyboard */; };
 		D9AE8CB71EEBBBCC0095B124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AE8CB61EEBBBCC0095B124 /* Assets.xcassets */; };
 		D9AE8CBA1EEBBBCC0095B124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9AE8CB81EEBBBCC0095B124 /* LaunchScreen.storyboard */; };
+		D9AE8CC21EEBC0670095B124 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AE8CC11EEBC0670095B124 /* Extension.swift */; };
+		D9AE8CC51EEBC0B60095B124 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AE8CC41EEBC0B60095B124 /* Extension.swift */; };
+		D9AE8CC71EEBC0C60095B124 /* Magnet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AE8CC61EEBC0C60095B124 /* Magnet.swift */; };
+		D9AE8CC91EEBC0E40095B124 /* MagnetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AE8CC81EEBC0E40095B124 /* MagnetView.swift */; };
+		D9AE8CCB1EEBC0F00095B124 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AE8CCA1EEBC0F00095B124 /* Node.swift */; };
+		D9AE8CCE1EEBC17B0095B124 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9AE8CCD1EEBC17B0095B124 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,13 @@
 		D9AE8CB61EEBBBCC0095B124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9AE8CB91EEBBBCC0095B124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9AE8CBB1EEBBBCC0095B124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9AE8CC11EEBC0670095B124 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		D9AE8CC41EEBC0B60095B124 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		D9AE8CC61EEBC0C60095B124 /* Magnet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Magnet.swift; sourceTree = "<group>"; };
+		D9AE8CC81EEBC0E40095B124 /* MagnetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagnetView.swift; sourceTree = "<group>"; };
+		D9AE8CCA1EEBC0F00095B124 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		D9AE8CCC1EEBC10B0095B124 /* Magnet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Magnet.h; sourceTree = "<group>"; };
+		D9AE8CCD1EEBC17B0095B124 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +51,7 @@
 		D9AE8CA31EEBBBCA0095B124 = {
 			isa = PBXGroup;
 			children = (
+				D9AE8CC31EEBC0990095B124 /* MAGNETIC */,
 				D9AE8CAE1EEBBBCA0095B124 /* Magnet */,
 				D9AE8CAD1EEBBBCA0095B124 /* Products */,
 			);
@@ -60,8 +74,22 @@
 				D9AE8CB61EEBBBCC0095B124 /* Assets.xcassets */,
 				D9AE8CB81EEBBBCC0095B124 /* LaunchScreen.storyboard */,
 				D9AE8CBB1EEBBBCC0095B124 /* Info.plist */,
+				D9AE8CC11EEBC0670095B124 /* Extension.swift */,
 			);
 			path = Magnet;
+			sourceTree = "<group>";
+		};
+		D9AE8CC31EEBC0990095B124 /* MAGNETIC */ = {
+			isa = PBXGroup;
+			children = (
+				D9AE8CCD1EEBC17B0095B124 /* Info.plist */,
+				D9AE8CC41EEBC0B60095B124 /* Extension.swift */,
+				D9AE8CC61EEBC0C60095B124 /* Magnet.swift */,
+				D9AE8CC81EEBC0E40095B124 /* MagnetView.swift */,
+				D9AE8CCA1EEBC0F00095B124 /* Node.swift */,
+				D9AE8CCC1EEBC10B0095B124 /* Magnet.h */,
+			);
+			name = MAGNETIC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9AE8CCE1EEBC17B0095B124 /* Info.plist in Resources */,
 				D9AE8CBA1EEBBBCC0095B124 /* LaunchScreen.storyboard in Resources */,
 				D9AE8CB71EEBBBCC0095B124 /* Assets.xcassets in Resources */,
 				D9AE8CB51EEBBBCB0095B124 /* Main.storyboard in Resources */,
@@ -136,8 +165,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9AE8CC91EEBC0E40095B124 /* MagnetView.swift in Sources */,
+				D9AE8CC21EEBC0670095B124 /* Extension.swift in Sources */,
 				D9AE8CB21EEBBBCA0095B124 /* ViewController.swift in Sources */,
+				D9AE8CC71EEBC0C60095B124 /* Magnet.swift in Sources */,
 				D9AE8CB01EEBBBCA0095B124 /* AppDelegate.swift in Sources */,
+				D9AE8CC51EEBC0B60095B124 /* Extension.swift in Sources */,
+				D9AE8CCB1EEBC0F00095B124 /* Node.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
